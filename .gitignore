@@ -1,0 +1,135 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+*.mo
+*.pot
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Results and Outputs
+results/
+!results/.gitkeep
+*.log
+*.png
+*.jpg
+*.pdf
+*.svg
+*.json
+!paper/*.md
+!paper/*.pdf
+
+# C++ Compiled
+*.o
+*.obj
+*.dll
+*.dylib
+*.so.*
+*.a
+*.lib
+*.exe
+*.out
+matrix_ops_cpp*.so
+matrix_ops_cpp*.pyd
+matrix_ops_cpp*.dll
+
+# Build artifacts
+src/optimization/build/
+src/optimization/matrix_ops_cpp_dummy.py
+*.cpp.o
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Data files (optional - uncomment if you don't want to track large data)
+# *.csv
+# *.h5
+# *.hdf5
+# *.npy
+# *.npz
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+*.prof
+*.lprof
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package managers
+poetry.lock
+Pipfile.lock
+
+# Qiskit cache
+.qiskit/
+
+# Latex (if generating paper as PDF)
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
