@@ -1,13 +1,8 @@
 # Quantum Entanglement Simulator
 
-![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
-![Qiskit](https://img.shields.io/badge/qiskit-0.45.0-purple.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-production--ready-brightgreen.svg)
-
 Advanced quantum entanglement simulator implementing state-of-the-art algorithms for quantum state manipulation, Bell inequality violation optimization, and entanglement quantification.
 
-## 🌟 Features
+## Features
 
 - **Complete Quantum State Framework**
   - Bell states, GHZ states, cluster states
@@ -40,14 +35,14 @@ Advanced quantum entanglement simulator implementing state-of-the-art algorithms
   - Graceful fallback to NumPy
   - Multi-threaded execution support
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.9+
 - Qiskit 0.45.0+
 - NumPy, SciPy, Matplotlib
 - Eigen3 (optional, for C++ acceleration)
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone repository
@@ -65,7 +60,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📖 Installation
+## Installation
 
 See [INSTALLATION.md](INSTALLATION.md) for detailed installation instructions including:
 - System-specific setup (Linux/macOS/Windows)
@@ -73,7 +68,7 @@ See [INSTALLATION.md](INSTALLATION.md) for detailed installation instructions in
 - C++ compilation
 - Troubleshooting guide
 
-## 🧪 Usage Examples
+## Usage Examples
 
 ### Basic Entanglement
 
@@ -113,7 +108,7 @@ circuit = grover.run(marked_states=[5, 7])
 # Execute and measure...
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 quantum_entanglement_simulator/
@@ -130,7 +125,7 @@ quantum_entanglement_simulator/
 └── main.py                # Main execution script
 ```
 
-## 🧬 Running Experiments
+## Running Experiments
 
 ```bash
 # Bell inequality violations
@@ -143,7 +138,7 @@ python experiments/entanglement_swapping.py
 python experiments/quantum_teleportation.py
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -156,7 +151,7 @@ python -m pytest tests/test_quantum_state.py -v
 python -m pytest tests/ --cov=src --cov-report=html
 ```
 
-## 📊 Results
+## Results
 
 After running `python main.py`, results are saved to:
 
@@ -164,7 +159,7 @@ After running `python main.py`, results are saved to:
 - `results/data/` - JSON data files
 - `results/*.log` - Execution logs
 
-## 📄 Research Paper
+## Research Paper
 
 A comprehensive 10-page research paper is included in `paper/quantum_control_analysis.md`, covering:
 
@@ -174,7 +169,7 @@ A comprehensive 10-page research paper is included in `paper/quantum_control_ana
 - Quantum paradoxes and interpretations
 - Performance benchmarks
 
-## 🔧 Configuration
+## Configuration
 
 Edit `results/config.json` to customize:
 
@@ -188,7 +183,7 @@ Edit `results/config.json` to customize:
 }
 ```
 
-## 🐳 Docker Support
+## Docker Support
 
 ```bash
 # Build image
@@ -198,7 +193,7 @@ docker build -t quantum-sim .
 docker run -v $(pwd)/results:/app/results quantum-sim
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please:
 
@@ -208,20 +203,20 @@ Contributions welcome! Please:
 4. Ensure all tests pass
 5. Submit a pull request
 
-## 📝 License
+## License
 
 MIT License - see LICENSE file for details
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Inspired by rigorous scientific methodology and precision in quantum information theory.
 
-## 📚 References
+## References
 
 - Nielsen & Chuang - Quantum Computation and Quantum Information
 - Bell, J.S. (1964) - On the Einstein Podolsky Rosen Paradox
 - Aspect et al. (1982) - Experimental Tests of Bell's Inequalities
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 See [INSTALLATION.md](INSTALLATION.md) troubleshooting section or open an issue.
