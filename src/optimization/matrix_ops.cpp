@@ -2,8 +2,8 @@
 #include <pybind11/numpy.h>
 #include <pybind11/eigen.h>
 #include <Eigen/Dense>
-#include 
-#include 
+#include <complex>
+#include <vector>
 
 namespace py = pybind11;
 using namespace Eigen;
